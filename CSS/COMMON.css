@@ -1,0 +1,35 @@
+:root{
+  --teal:rgb(5, 93, 78);
+  --teal-hover:#279e8c;
+}
+
+*{
+  font-family: 'Poppins' , sans-serif;
+}
+.h-font{
+  font-family:cursive;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.d-block{
+    height: 400px;
+  }
+
+.custom-bg{
+  background-color: var(--teal);
+  border: 1px solid var(--teal);
+
+}
+.custom-bg:hover{
+  background-color: var(--teal-hover);
+  border-color: var(--teal-hover);
+}
+.h-line{
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
